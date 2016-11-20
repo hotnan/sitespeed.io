@@ -14,7 +14,13 @@ services:
 #        volumes:
 #            - ./sitespeed-result/:/srv
     grafana:
-        image: grafana/grafana:3.1.1
+        image: grafana/grafana:3.1.1        
+        envrironment:
+             - GF_SECURITY_ADMIN_PASSWORD=hdeAga76VG6ga7plZ1
+             - GF_SECURITY_ADMIN_USER=sitespeedio
+             - GF_AUTH_ANONYMOUS_ENABLED=true
+             - GF_USERS_ALLOW_SIGN_UP=false
+             - GF_USERS_ALLOW_ORG_CREATE=false
         links:
             - graphite
             - influxdb
