@@ -38,6 +38,9 @@ services:
             - GF_USER=sitespeedio
     graphite:
         image: sitespeedio/graphite
+        ports:
+            - "2003:2003"
+            - "8081:80"        
     influxdb:
         image: tutum/influxdb
         environment:
