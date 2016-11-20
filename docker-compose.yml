@@ -40,7 +40,7 @@ services:
         image: sitespeedio/graphite
         ports:
             - "2003:2003"
-            - "8080:80"
+            - "8081:80"
         restart: always
         volumes:
             - /var/www/sitestatus/graphite:/opt/graphite/storage/whisper      
