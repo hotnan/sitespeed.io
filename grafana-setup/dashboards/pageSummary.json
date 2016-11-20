@@ -226,10 +226,10 @@
                     },
                     "targets": [{
                         "refId": "A",
-                        "target": "sitespeed_io.$path.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.fullyLoaded.median"
+                        "target": "sitespeed_io.$path.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.frontEndTime.median"
                     }],
                     "thresholds": "",
-                    "title": "FullyLoaded",
+                    "title": "FrontEndTime",
                     "type": "singlestat",
                     "valueFontSize": "80%",
                     "valueMaps": [{
