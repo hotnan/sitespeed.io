@@ -39,8 +39,8 @@ services:
         volumes:
             - /var/www/sitestatus/graphite:/opt/graphite/storage/whisper      
     grafana-setup:
-        #build: ./grafana-setup
-        image: sitespeedio/grafana-bootstrap
+        build: ./grafana-setup
+        #image: sitespeedio/grafana-bootstrap
         links:
             - grafana
         environment:
