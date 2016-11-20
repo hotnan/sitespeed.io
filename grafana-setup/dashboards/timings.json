@@ -52,7 +52,7 @@
                     "steppedLine": false,
                     "targets": [{
                         "refId": "A",
-                        "target": "aliasByNode(sitespeed_io.default.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.$timing.$percentile, 12)"
+                        "target": "aliasByNode(sitespeed_io.$path.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.$timing.$percentile, 12)"
                     }],
                     "timeFrom": null,
                     "timeShift": null,
@@ -126,7 +126,7 @@
                     "steppedLine": false,
                     "targets": [{
                         "refId": "A",
-                        "target": "aliasByNode(sitespeed_io.default.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.$timing.$percentile, 12)"
+                        "target": "aliasByNode(sitespeed_io.$path.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.$timing.$percentile, 12)"
                     }],
                     "timeFrom": "3M",
                     "timeShift": null,
@@ -200,7 +200,7 @@
                     "steppedLine": false,
                     "targets": [{
                         "refId": "A",
-                        "target": "aliasByNode(sitespeed_io.default.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.$timing.$percentile, 12)"
+                        "target": "aliasByNode(sitespeed_io.$path.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.$timing.$percentile, 12)"
                     }],
                     "timeFrom": "6M",
                     "timeShift": null,
@@ -271,7 +271,7 @@
                     "multi": false,
                     "name": "domain",
                     "options": [],
-                    "query": "sitespeed_io.default.pageSummary.*",
+                    "query": "sitespeed_io.$path.pageSummary.*",
                     "refresh": 1,
                     "regex": "",
                     "type": "query"
@@ -283,7 +283,7 @@
                     "multi": false,
                     "name": "page",
                     "options": [],
-                    "query": "sitespeed_io.default.pageSummary.$domain.*",
+                    "query": "sitespeed_io.$path.pageSummary.$domain.*",
                     "refresh": 1,
                     "regex": "",
                     "type": "query"
@@ -295,7 +295,7 @@
                     "multi": false,
                     "name": "browser",
                     "options": [],
-                    "query": "sitespeed_io.default.pageSummary.$domain.$page.*",
+                    "query": "sitespeed_io.$path.pageSummary.$domain.$page.*",
                     "refresh": 1,
                     "regex": "",
                     "type": "query"
@@ -307,7 +307,7 @@
                     "multi": false,
                     "name": "connectivity",
                     "options": [],
-                    "query": "sitespeed_io.default.pageSummary.$domain.$page.$browser.*",
+                    "query": "sitespeed_io.$path.pageSummary.$domain.$page.$browser.*",
                     "refresh": 1,
                     "type": "query"
                 }, {
@@ -318,7 +318,7 @@
                     "multi": false,
                     "name": "timing",
                     "options": [],
-                    "query": "sitespeed_io.default.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.*",
+                    "query": "sitespeed_io.$path.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.*",
                     "refresh": 1,
                     "regex": "",
                     "type": "query"
@@ -330,7 +330,7 @@
                     "multi": false,
                     "name": "percentile",
                     "options": [],
-                    "query": "sitespeed_io.default.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.$timing.*",
+                    "query": "sitespeed_io.$path.pageSummary.$domain.$page.$browser.$connectivity.browsertime.statistics.timings.pageTimings.$timing.*",
                     "refresh": 1,
                     "regex": "",
                     "type": "query"
