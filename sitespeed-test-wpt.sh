@@ -1,0 +1,1 @@
+sudo docker run --privileged --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io:4.0.0 --graphite.host=dev-sitespeed.dentaldepartures.com --webpagetest.host=www.webpagetest.org --webpagetest.key=A.255325bd348384546d5ef7feb09bf743 --webpagetest.location=ec2-ap-southeast-2 http://www.medicaldepartures.com
