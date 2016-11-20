@@ -6,7 +6,7 @@ services:
         volumes:
             - ./sitespeed-result/:/sitespeed.io/sitespeed-result
         privileged: true
-        shm_size: 1g
+#        shm_size: 1g
 #    caddy:
 #        image: abiosoft/caddy
 #        ports:
